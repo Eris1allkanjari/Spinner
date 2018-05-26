@@ -1,0 +1,23 @@
+.spinner1{
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top:50%;
+    left:50%;
+    height: 60px;
+    width: 60px; 
+    margin-top:-30px;
+    margin-left:-30px;
+    border-radius: 50%;
+    border: 3.5px solid rgb(182, 168, 168);
+    border-left-color:rgb(253, 244, 244);
+    border-top-color: rgb(83, 79, 79);
+    animation: spinner 0.9s linear infinite;
+
+}
+
+@keyframes spinner {
+    to{
+        transform: rotate(360deg);
+    }
+}
